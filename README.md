@@ -28,3 +28,6 @@ Here are the fixes I made to closely resemble the mock set up for us.
 7. Added alt to all images except for hero div content.
 
 
+## Link To Static Page
+
+https://mambrocio.github.io/chal-oneMod/
