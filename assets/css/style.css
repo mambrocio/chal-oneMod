@@ -1,3 +1,5 @@
+/*---Presets---*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,10 +10,23 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 24px;
+}
+
+
 h1, h2, p, a{
     text-shadow: 1px 1px 2px black;
 }
 
+/*---Main Body---*/
+
+/*Header Style */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,15 +60,7 @@ header div ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 24px;
-}
-
+/*Hero Style*/
 .hero {
     height: 800px;
     width: 100%;
@@ -63,6 +70,7 @@ p {
     background-position: center;
 }
 
+/*Main Content Style */
 .float-left {
     float: left;
     height: 250px;
@@ -80,7 +88,6 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -139,6 +146,8 @@ p {
     margin-bottom: 40px;
     font-size: 40px;
 }
+
+/*---Side Bar Content---*/
 
 .benefits {
     margin-right: 20px;
@@ -212,6 +221,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h3 {
     font-size: 20px;
 }
